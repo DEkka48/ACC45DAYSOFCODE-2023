@@ -1,0 +1,18 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    int T;
+    cin >> T;
+
+    while (T--)
+	{
+        int X, Y, Z; 
+        cin >> X >> Y >> Z;
+
+        int result =((X*5)+(Y*10))/Z;
+        cout << result << endl; 
+    }
+
+    return 0;
+}
