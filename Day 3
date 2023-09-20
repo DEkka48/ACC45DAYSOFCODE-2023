@@ -1,0 +1,19 @@
+#include <iostream>
+using namespace std;
+
+int main() 
+{
+   int T;
+   cin >> T;
+
+  while (T--) 
+  {
+      int X, Y;
+      cin >> X >> Y;
+
+      int chairs_needed = max(0, X - Y); 
+      cout << chairs_needed << endl;
+   }
+
+    return 0;
+}
